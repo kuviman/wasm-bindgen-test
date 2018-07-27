@@ -11,15 +11,6 @@ fn test() {
 }
 
 #[wasm_bindgen]
-extern {
-    fn alert(s: &str);
-}
-
-fn main() {
-    alert("HI");
-}
-
-#[wasm_bindgen]
 pub fn set_panic_hook() {
     console_error_panic_hook::set_once();
 }
