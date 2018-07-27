@@ -1,0 +1,8 @@
+[package]
+name = "wasm"
+version = "0.1.0"
+authors = ["kuviman <kuviman@gmail.com>"]
+
+[dependencies]
+wasm-bindgen = "*"
+console_error_panic_hook = "*"
